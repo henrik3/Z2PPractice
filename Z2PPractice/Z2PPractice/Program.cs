@@ -6,48 +6,26 @@ namespace Z2PPractice
     {
         static void Main(string[] args)
         {
-            Dog myDog = new Dog();
-            myDog.Name = "Bob";
-            myDog.NumberOfLegs = 4;
-            myDog.Bark();
-
-            Labrador myLab = new Labrador();
-            myLab.Bark();
-            myLab.Breathe();
-
-            Console.WriteLine(myDog.Name);
+            Console.WriteLine(Math.Add(4, 5));
         }
     }
-    // The Animal class inherits from interface IAnimal
-    class Animal
+
+    static class Math
     {
-        public string Name { get; set; }
-        public string Color { get; set; }
-        
-        public void Breathe()
+        public static int Add(int a, int b)
         {
-            Console.WriteLine("I'm breathing");
+            return a + b;
         }
 
-        public void Eat()
+        public static int Add(int a, int b, int c)
         {
+            return a + b + c;
+        }
 
+        public static int Add(string b, int a)
+        {
+            return a + b;
         }
     }
-
-    class Dog : Animal
-    {
-        public int NumberOfLegs { get; set; }
-        public void Bark()
-        {
-            Console.WriteLine("Woof!");
-        }
-        
-    }
-
-    class Labrador : Dog
-    {
-
-    }
-  
+ 
 }
