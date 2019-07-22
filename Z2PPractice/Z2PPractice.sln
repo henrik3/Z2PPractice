@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29009.5
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Z2PPractice", "Z2PPractice\Z2PPractice.csproj", "{0B7CD3E9-0765-4638-BF11-6A81841CAC76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Z2PPractice", "Z2PPractice\Z2PPractice.csproj", "{0B7CD3E9-0765-4638-BF11-6A81841CAC76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{C7D55DE6-C3AD-404F-8997-A0E65A545FFD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0B7CD3E9-0765-4638-BF11-6A81841CAC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B7CD3E9-0765-4638-BF11-6A81841CAC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B7CD3E9-0765-4638-BF11-6A81841CAC76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D55DE6-C3AD-404F-8997-A0E65A545FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D55DE6-C3AD-404F-8997-A0E65A545FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D55DE6-C3AD-404F-8997-A0E65A545FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D55DE6-C3AD-404F-8997-A0E65A545FFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
