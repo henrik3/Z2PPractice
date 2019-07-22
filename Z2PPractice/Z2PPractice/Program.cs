@@ -6,25 +6,36 @@ namespace Z2PPractice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Math.Add(4, 5));
+            Dog myDog = new Dog();
+            Fish myFish = new Fish();
+
+            myDog.Breathe();
+            myFish.Breathe();
         }
     }
 
-    static class Math
+    abstract class Animal
     {
-        public static int Add(int a, int b)
-        {
-            return a + b;
-        }
+        public String name { get; set; }
 
-        public static int Add(int a, int b, int c)
+        // Virtual is allowing subclasses to override the functionality of this class
+        // Abstract is forcing them to so
+        public virtual void Breathe()
         {
-            return a + b + c;
+            Console.WriteLine("I'm breathing air");
         }
+    }
 
-        public static int Add(string b, int a)
+    class Dog : Animal
+    {
+
+    }
+
+    class Fish : Animal
+    {
+        public override void Breathe()
         {
-            return a + b;
+            Console.WriteLine("I'm breathing under water");
         }
     }
  
